@@ -7,26 +7,57 @@ body {
 
 }
 
-.navbar{
+
+nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-left: 760px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #17444c;
+}
+
+
+ /* .navbar{
     color:black;
     margin-left: 750px;
     line-height: 4em; 
     text-decoration: none;
    
 
-}
+}  */
 
 
-a {
-    text-decoration: none;
-    color: black;
-    padding: 10px 15px;
-}
 
 section.hero{
-    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) ,url(/images/pexels-goumbik-574071.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) ,url(/images/edit.jpg);
     background-size: cover;
-    margin-top:20px;
+    margin-top:0px;
     display: flex;
     align-items: center;
     height:100vh ;
@@ -43,19 +74,35 @@ section.hero{
     font-size: 50px;
  }
 
- section.about {
+button {
+    color: antiquewhite;
+    width: 150px;
+    background-color: #287d74;
+    padding: 14px 32px;
+    border:2px solid #3d5054;
+    margin-top: 5px;
+
+}
+
+section.About2{
+    background: linear-gradient(109.6deg, rgb(0, 0, 0) 11.2%, rgb(1, 37, 40) 91.1%);
+    
+    height: 100vh;
+}
+div.about {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     margin: 20px auto;
-    max-width: 800px;
-    height: 100vh;
- }
+    max-width: 850px;
+
+}
 
  img {
+
     max-width: 100%;
-    height: auto;
+    height: 260;
     margin-right: 50px;
     border: 3px solid #317a86;
     box-shadow: 30px 30px 5px #287d74;
@@ -64,22 +111,31 @@ section.hero{
     -khtml-box-shadow: 20px 20px 5px #155259;
 
  }
-section.content{
+ .About2, content{
     flex:1; 
     padding: 0 10px;
     line-height: 1.6; 
+    color: beige;
  }
 
  h2{
-    color: #17444c;
-   font-size:50px;
-    padding-top: 10px;
+    color: beige;
+    font-size:50px;
+    padding-top: 20px;
     padding-bottom: 0px;
     text-align: center;
     justify-content: center;
-    margin-bottom: 0px;
+    margin-top: 0px;
  }
 
  .para {
    text-align: center;
+   color: beige;
+ } 
+
+section.Skills{
+    background: linear-gradient(109.6deg, rgb(0, 0, 0) 11.2%, rgb(1, 37, 40) 91.1%);
+    padding: 5px;
+    color: beige ;
+  
  }
