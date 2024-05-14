@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap');
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+.navbar{
+    color:black;
+    margin-left: 750px;
+    line-height: 4em; 
+    text-decoration: none;
+   
+
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 15px;
+}
+
+section.hero{
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) ,url(/images/pexels-goumbik-574071.jpg);
+    background-size: cover;
+    margin-top:20px;
+    display: flex;
+    align-items: center;
+    height:100vh ;
+    text-align: center;
+    justify-content: center;
+    font-size: 40px;
+    color: beige;
+    
+}
+
+
+ span{
+    color: #287d74;
+    font-size: 50px;
+ }
+
+ section.about {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px auto;
+    max-width: 800px;
+    height: 100vh;
+ }
+
+ img {
+    max-width: 100%;
+    height: auto;
+    margin-right: 50px;
+    border: 3px solid #317a86;
+    box-shadow: 30px 30px 5px #287d74;
+    -moz-box-shadow: 20px 20px 5px #217a81;
+    -webkit-box-shadow: 20px 20px 5px #17444c;
+    -khtml-box-shadow: 20px 20px 5px #155259;
+
+ }
+section.content{
+    flex:1; 
+    padding: 0 10px;
+    line-height: 1.6; 
+ }
+
+ h2{
+    color: #17444c;
+   font-size:50px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 0px;
+ }
+
+ .para {
+   text-align: center;
+ }
